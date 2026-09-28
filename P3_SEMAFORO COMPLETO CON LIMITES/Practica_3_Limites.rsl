@@ -1,0 +1,362 @@
+FILE,LAD 2:
+SOR,0 EOR,0
+RCM,
+SOR,1 XIC,I:1/1 OTE,B3:0/0 EOR,1
+RCM,
+SOR,2 XIC,B3:0/0 XIO,T4:0/DN TON,T4:0,300 EOR,2
+RCM,
+SOR,3 LIM,0,T4:0.ACC,159 OTE,O:2/0 EOR,3
+RCM,
+SOR,4 BST,1 LIM,160,T4:0.ACC,239 NXB,1 LIM,240,T4:0.ACC,259 XIC,S:4/7 BND,1 OTE,O:2/2 EOR,4
+RCM,
+SOR,5 LIM,260,T4:0.ACC,300 OTE,O:2/1 EOR,5
+RCM,
+SOR,6 BST,1 LIM,0,T4:0.ACC,19 NXB,1 LIM,158,T4:0.ACC,300 BND,1 OTE,O:2/4 EOR,6
+RCM,
+SOR,7 BST,1 LIM,11,T4:0.ACC,79 NXB,1 LIM,80,T4:0.ACC,99 XIC,S:4/7 BND,1 OTE,O:2/6 EOR,7
+RCM,
+SOR,8 LIM,100,T4:0.ACC,139 OTE,O:2/5 EOR,8
+RCM,
+SOR,9 XIC,I:1/0 OTU,B3:0/0 JSR,U:3 EOR,9
+RCM,
+SOR,10 END,10
+RCM,
+FILE,SBR 3: ROJO
+SOR,0 OTL,B3:0/1 XIO,T4:1/DN TON,T4:1,20 EOR,0
+RCM,
+SOR,1 XIC,T4:1/EN OTU,B3:0/1 BST,1 OTE,O:2/4 NXB,1 OTE,O:2/0 BND,1 EOR,1
+RCM,
+SOR,2 END,2
+RCM,
+FILE,SBR 4:
+SOR,0 END,0
+RCM,
+FILE,SBR 5:
+SOR,0 END,0
+RCM,
+FILE,SBR 6:
+SOR,0 END,0
+RCM,
+FILE,SBR 7:
+SOR,0 END,0
+RCM,
+FILE,SBR 8:
+SOR,0 END,0
+RCM,
+FILE,SBR 9:
+SOR,0 END,0
+RCM,
+BTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+NTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+FTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+SYMBOLS
+I:1/0 PEATON
+B3:0/0 Control
+I:1/1 START
+O:2/0 LUZ ROJA
+O:2/1 LUZ AMARILLA
+O:2/5 luz amarilla b
+O:2/6 luz verde b
+O:2/4 luz roja b
+O:2/2 LUZ VERDE
+U:3 ROJO
